@@ -1,0 +1,25 @@
+{
+  "name": "invoicegenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "calendar-js": "^1.4.4",
+    "easyinvoice": "^3.0.23",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.13.0",
+    "pdftk": "^0.0.0-rc.0"
+  }
+}
